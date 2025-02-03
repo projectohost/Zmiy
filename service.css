@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+}
+
+/*  */
+/*  */
+
+.animated-footer {
+  position: relative;
+  background: linear-gradient(45deg, #ff6b6b, #ffd93d, #1dd1a1, #54a0ff);
+  background-size: 400% 400%;
+  animation: gradientAnimation 20s ease infinite;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer-content h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-content p {
+  margin: 10px 0 20px;
+  font-size: 16px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ffd93d;
+}
+
+img{
+  width: 2 px;
+}
+
+.crossed{
+  text-decoration: line-through;
+}
+
+
+h1{
+  text-align: center;
+}
